@@ -1,16 +1,9 @@
-import { useState } from 'react'
-import Form from './components/Form'
-
+import Login from "./pages/Login"
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <div className='flex w-full h-screen'>
-      <div  className='w-full flex item-center justify-center lg:w-1/2'>
-        <Form/>
-      </div>
-      <div className='hidden lg:flex h-full items-center justify-center bg-gray-800 '>
-      </div>
+    <div className='flex justify-center content-center'>
+        <Login/>
     </div>
   )
 }
