@@ -1,0 +1,126 @@
+.Welcome-section{
+    display: none;
+}
+.Login-Background{
+    position: absolute;
+}
+
+.Login{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 90vh;
+    width: 90vw;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px 0px #00000017;
+    padding: 20px;
+}
+.Form{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Form-title{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.Form-subtitle{
+    font-size: 10px;
+    width: 180px;
+    color: grey;
+    margin: 16px 0px;
+
+}
+.Form-input{
+    padding: 11px;
+    font-size: 10px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    border: solid 1px grey;
+    margin: 8px 0px;
+}
+
+.Form-subtext{
+    margin: 10px 0px 0px 0px;
+    font-size: 12px;
+    color: grey;
+}
+.Form-subtext > a{
+    color: purple;
+}
+.Form-section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.Form-section2, .Form-remember{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+.Form-section2{
+    gap: 60px;
+    margin: 18px 0px;
+}
+.Form-remember_text{
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.Form-button{
+    background-color: purple;
+    width: 100%;
+    padding: 10px;
+    border: solid 1px rgb(71, 0, 71);
+    border-radius: 5px;
+    font-size: 12px;
+    color: white;
+}
+
+.Form-forget{
+    font-size: 10px;
+    font-weight: bold;
+    color: gray;
+}
+
+@media only screen and (min-width: 1024px) {
+    .Login{
+        justify-content: space-between;
+        flex-direction: row;
+        height: 90vh;
+        width: 80vw;
+        border-radius: 10px;
+        padding: 0px;
+    }
+    .Welcome-section{
+        display: flex;
+        align-items: center;
+        height: 100%;
+        width: 50%;
+        background: url("../assets/login-wallpaper.webp");
+        background-size: cover;
+        border-radius: 10px 0 0 10px;
+    }
+    .Welcome-section_Logo{
+        position: absolute;
+        top:40px;
+        left: 40px;
+        width: 40px;
+        height: 40px;
+    }
+    .Form{
+        width: 50%;
+    }
+    .Welcome-section_Title{
+        font-size: 70px;
+        color: white;
+        padding: 40px;
+    }
+}

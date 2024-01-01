@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+        font-family: "Avenir";
+        src: url("./assets/fonts/Avenir.otf");
+}
+
+:root {
+    background-color: #f1efef;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Avenir', sans-serif;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
