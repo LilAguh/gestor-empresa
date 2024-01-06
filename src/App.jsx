@@ -1,5 +1,5 @@
 import Login from "./pages/Login"
-import Home from "./pages/Home"
+import Navigation from "./pages/Navigation"
 import "./App.css"
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
         {/* <Login/> */}
-        <Home />
+        <Navigation />
     </div>
   )
 }
